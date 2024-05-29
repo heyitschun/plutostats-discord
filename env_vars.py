@@ -23,4 +23,4 @@ print(f"Using channel for quit price: {QUIT_CHANNEL_ID}")
 QR_CHANNEL_ID = os.getenv("QR_CHANNEL_ID")
 assert isinstance(QR_CHANNEL_ID, str), "QR_CHANNEL_ID not found"
 QR_CHANNEL_ID = int(QR_CHANNEL_ID)
-print(f"Using channel for quit + royalties price: {QUIT_CHANNEL_ID}")
+print(f"Using channel for quit + royalties price: {QR_CHANNEL_ID}")
