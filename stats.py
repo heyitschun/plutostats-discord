@@ -45,6 +45,5 @@ async def get_quit_plus_royalties() -> float:
         except Exception as e:
             print(f"exception: {e}")
             royalties += 0
-    print(f"royalties: {royalties}")
     total_quit = book + (royalties / current_supply)
     return total_quit
